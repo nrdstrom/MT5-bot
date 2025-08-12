@@ -7,6 +7,7 @@ load_dotenv()
 DISCORD_TOKEN = os.getenv("DISCORD_TOKEN")
 INPUT_CHANNEL_ID = int(os.getenv("INPUT_CHANNEL_ID", "0"))
 OUTPUT_CHANNEL_ID = int(os.getenv("OUTPUT_CHANNEL_ID", "0"))
+print("OCR API KEY:", OCR_API_KEY)
 OCR_API_KEY = os.getenv("OCR_API_KEY")  # ocr.space
 
 # Enkla mönster – kan finslipas efter era screenshots
